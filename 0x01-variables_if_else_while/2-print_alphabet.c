@@ -1,17 +1,16 @@
 #include <stdio.h>
 
 /**
-* main - print alphabet in lowercase
-*
-*/
+   * main - print alphabet in lowercase
+   *
+   *Return: zero
+   */
 int main(void)
 {
-        char ch = 'a';
- 
-        for(ch = 'a'; ch <= 'z'; ch++)
-              [B[B
-              putchar(ch)'
-              putchar('\n');[A[D[;[B[C[C
-[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[A[A[D[D
-[B        return (0);
+	char ch = 'a';
+
+	for (ch = 'a'; ch <= 'z'; ch++)
+		putchar(ch);
+		putchar('\n');
+	return (0);
 }

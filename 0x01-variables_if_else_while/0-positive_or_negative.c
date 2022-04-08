@@ -1,27 +1,31 @@
-#include <stdlib.h>
+#include <stdilib.h>
 #include <time.h>
 #include <stdio.h>
 
 /**
-   * main - Checks if positive, zero or negative
-   *
-   *Return: zero
-   */
-int main()[Dvoid)
+* main - Entry point
+*
+*Return: Aiways 0 (Success/correct)
+*/
+
+int main(void)
 {
-        int n;
-        
-        srand(time(0));
-        n = rand() - RAND_MAX / 2;
-        if (n > 0)
-        (
-               printf("%d is positive\n", n)[A[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[{[B[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-         }else if (n == 0)
-         {
-               printf("%d is zero\n", n);[A[A[A[C[C[C;[B[B[B[B
-         }else
-         {
-               printf("%d is negative\n", n);
-         }
-         return (0);
+int n;
+
+srand(time(0));
+n = rand() - RAND_MAX / 2
+
+if (n == 0)
+{
+printf("%d is zero\n", n);
 }
+else if (n < 0)
+{
+printf(%d is negative\n",n);
+}
+else
+{
+printf("%d is positive\n",n);
+}
+return (0);
+}[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B

@@ -1,5 +1,3 @@
-cat > 5-strstr.c
-
 #include "main.h"
 
 /**

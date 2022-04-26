@@ -24,5 +24,3 @@ void print_chessboard(char (*a)[8])
 	}
 
 }
-git add .
-[A[C[C[C[C[C[C
